@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Learning Next js",
     description: "Next js with typescript",
+  },
+  robots:{
+    index:true,
+    follow:true,
+    nocache:true,
+    googleBot: {
+      index:true,
+      follow:true,
+    }
   }
 }
 
